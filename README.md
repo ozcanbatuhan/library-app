@@ -133,7 +133,7 @@ library-management/ ├── client/ # Frontend React uygulaması │ ├──
 - Her iki uygulamayı da (frontend ve backend) aynı anda çalıştırın
 - Hata durumunda ilgili çözüm adımlarını sırasıyla deneyin
 
-### Sık Karşılaşılan Port Hatası
+### Sık Karşılaşılan Hatalar
 - Backend için varsayılan port 3002'dir
 - Eğer port çakışması olursa:
   1. `server/.env` dosyasında PORT değerini değiştirin (örn: 3003, 3004, vb.)
