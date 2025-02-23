@@ -119,20 +119,14 @@ npm run dev
 ## API Endpoints
 
 ### Users
-Tüm kullanıcıları listele
-GET http://localhost:3002/users
-Kullanıcı detayı
-GET http://localhost:3002/users/1
-Kitap ödünç al
-POST http://localhost:3002/users/1/borrow/2
-Kitap iade et
-POST http://localhost:3002/users/1/return/2
+Tüm kullanıcıları listele : GET http://localhost:3002/users
+Kullanıcı detayı : GET http://localhost:3002/users/1
+Kitap ödünç al : POST http://localhost:3002/users/1/borrow/2
+Kitap iade et : POST http://localhost:3002/users/1/return/2
 
 ### Books
-Tüm kitapları listele
-GET http://localhost:3002/books
-Kitap detayı
-GET http://localhost:3002/books/1
+Tüm kitapları listele : GET http://localhost:3002/books
+Kitap detayı : GET http://localhost:3002/books/1
 
 ### Dizin Yapısı
 library-management/
@@ -151,16 +145,14 @@ library-management/
 │ └── types/ # TypeScript tip tanımlamaları
 └── .env # Backend çevre değişkenleri
 
-## Notlar
+## Bunları Unutmayın!
 - Tüm komutları belirtilen dizinlerde çalıştırdığınızdan emin olun
 - PostgreSQL bağlantı bilgilerini kendi kurulumunuza göre ayarlayın
 - Test verilerinin yüklenmesi için tüm adımları sırasıyla takip edin
 - Her iki uygulamayı da (frontend ve backend) aynı anda çalıştırın
 - Hata durumunda ilgili çözüm adımlarını sırasıyla deneyin
 
-## Sık Karşılaşılan Hatalar ve Çözümleri
-
-### 1. Port Çakışması
+### Sık Karşılaşılan Port Hatası
 - Backend için varsayılan port 3002'dir
 - Eğer port çakışması olursa:
   1. `server/.env` dosyasında PORT değerini değiştirin (örn: 3003, 3004, vb.)
