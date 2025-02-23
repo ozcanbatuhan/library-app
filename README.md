@@ -59,7 +59,7 @@ cp .env.example .env
 2. `.env` dosyasını düzenleyin:
 ```bash
 DATABASE_URL="postgresql://postgres:your_password@localhost:5432/library_db"
-PORT=3001
+PORT=3002
 ```
 
 #### 3.3. Veritabanı Kurulumu
@@ -84,7 +84,7 @@ npm run dev
 
 #### 4.1. Frontend Çevre Değişkenleri
 `.env` dosyası oluşturun:
-VITE_API_URL=http://localhost:3001
+VITE_API_URL=http://localhost:3002
 
 #### 4.2. Frontend'i Başlat
 ```bash
