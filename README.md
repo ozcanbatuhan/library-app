@@ -35,11 +35,6 @@ git clone <repo-url>
 cd library-management
 ```
 
-### 2.1. Root Seviyesinde Kurulum
-```bash
-npm run install:all
-npm run dev
-```
 
 ### 3. Backend Kurulum
 ```bash
