@@ -99,7 +99,7 @@ npm run dev
 ## Uygulama Erişimi
 
 - Frontend: http://localhost:5173
-- Backend: http://localhost:3001
+- Backend: http://localhost:3002
 
 ## Test Verileri
 
@@ -120,19 +120,19 @@ npm run dev
 
 ### Users
 Tüm kullanıcıları listele
-GET http://localhost:3000/users
+GET http://localhost:3002/users
 Kullanıcı detayı
-GET http://localhost:3001/users/1
+GET http://localhost:3002/users/1
 Kitap ödünç al
-POST http://localhost:3001/users/1/borrow/2
+POST http://localhost:3002/users/1/borrow/2
 Kitap iade et
-POST http://localhost:3001/users/1/return/2
+POST http://localhost:3002/users/1/return/2
 
 ### Books
 Tüm kitapları listele
-GET http://localhost:3000/books
+GET http://localhost:3002/books
 Kitap detayı
-GET http://localhost:3001/books/1
+GET http://localhost:3002/books/1
 
 ### Dizin Yapısı
 library-management/
