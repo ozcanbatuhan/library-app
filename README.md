@@ -1,18 +1,10 @@
-# Library Management System
-
-## Demo
-![Library Management Demo](demo.gif)
-
-## Canlı Demo
-[Live Demo](your-demo-url) - İsteğe bağlı
-
 ## Özellikler
 Bu proje, bir kütüphane yönetim sistemidir. Aşağıdaki özellikleri içerir:
 
-- 📚 Kitap ve kullanıcı yönetimi
-- 📖 Kitap ödünç alma/iade etme
-- ⭐ Kitap puanlama sistemi
-- 📊 Kullanıcı geçmişi takibi
+-  Kitap ve kullanıcı yönetimi
+-  Kitap ödünç alma/iade etme
+-  Kitap puanlama sistemi
+-  Kullanıcı geçmişi takibi
 
 ## Teknolojiler
 
