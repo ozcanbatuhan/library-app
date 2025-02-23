@@ -123,8 +123,6 @@ Kitap iade et : POST http://localhost:3002/users/1/return/2
 Tüm kitapları listele : GET http://localhost:3002/books
 Kitap detayı : GET http://localhost:3002/books/1
 
-### Dizin Yapısı
-library-management/ ├── client/ # Frontend React uygulaması │ ├── src/ │ │ ├── components/ # Yeniden kullanılabilir komponentler │ │ ├── pages/ # Sayfa komponentleri │ │ ├── services/ # API servisleri │ │ └── config/ # Yapılandırma dosyaları │ └── .env # Frontend çevre değişkenleri └── server/ # Backend Express uygulaması ├── prisma/ # Veritabanı şeması ve migrations ├── src/ │ ├── controllers/ # İş mantığı │ ├── routes/ # API rotaları │ └── types/ # TypeScript tip tanımlamaları └── .env # Backend çevre değişkenleri
 
 ## Bunları Unutmayın!
 - Tüm komutları belirtilen dizinlerde çalıştırdığınızdan emin olun
