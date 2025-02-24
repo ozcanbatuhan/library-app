@@ -1,8 +1,8 @@
 {
 	"info": {
 		"_postman_id": "b0960426-f4e4-4c18-a443-6dedf5220e18",
-		"name": "Anadolu Sigorta Library",
-		"description": "**Anadolu sigorta case study API's**\n\n- **EN:** In order to return a book, you must first borrow it, so you must first run the API named Borrow Book and then the API named Return Book.\n    \n- **TR:** Bir kitabı iade edebilmeniz için önce ödünç almanız gerekir bu yüzden önce Borrow Book isimli API' yi sonra ise Return Book isimli API' yi çalıştırmanız gerekmektedir.",
+		"name": "Library",
+		"description": "**Case study API's**\n\n- **EN:** In order to return a book, you must first borrow it, so you must first run the API named Borrow Book and then the API named Return Book.\n    \n- **TR:** Bir kitabı iade edebilmeniz için önce ödünç almanız gerekir bu yüzden önce Borrow Book isimli API' yi sonra ise Return Book isimli API' yi çalıştırmanız gerekmektedir.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "42532613"
 	},
